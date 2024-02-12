@@ -8,7 +8,16 @@ public class WineController {
 	
 	@GetMapping(value="/search")
 	public String displaySearch() {
-		return "/search";
+		return "search";
 	}
+	
+//	@GetMapping(value="/search")
+//	public String displaySearchResult() {
+//		
+//		// Connect to the API with entered search conditions.
+//		// Display the list of results.
+//		
+//		return "";
+//	}
 
 }
